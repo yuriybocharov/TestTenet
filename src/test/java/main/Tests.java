@@ -33,19 +33,13 @@ public class Tests {
 
     @Test
     public void tv() throws InterruptedException{
-        WebElement element = driver.findElement (By.cssSelector (TenetPage.entrance));
-        element.click ();
-        WebElement element1 = driver.findElement (By.cssSelector (TenetPage.login));
-        element1.sendKeys (Variables.login);
+        driver.findElement (By.cssSelector (TenetPage.entrance)).click ();
+        driver.findElement (By.cssSelector (TenetPage.login)).sendKeys (Variables.login);
+        driver.findElement (By.cssSelector (TenetPage.password)).sendKeys (Variables.password);
+        driver.findElement (By.cssSelector (TenetPage.next)).click ();
 
-        WebElement element2 = driver.findElement (By.cssSelector (TenetPage.password));
-        element2.sendKeys (Variables.password);
 
-        WebElement element3 = driver.findElement (By.cssSelector (TenetPage.next));
-        element3.click ();
-
-//        WebElement element4 = driver.findElement (By.cssSelector (TenetPage.channel53));
-//        scrollToElement (element4);
+//        driver.findElement (By.cssSelector (TenetPage.channel53)).scrollToElement (element4);
 //        System.out.println (driver.findElement (By.cssSelector (TenetPage.channel53)).getText ());
 //        driver.findElement (By.cssSelector (TenetPage.channel53)).click ();
 //        driver.findElement (By.cssSelector (TenetPage.tvProgram)).click ();
