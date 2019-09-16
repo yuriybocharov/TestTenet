@@ -147,7 +147,7 @@ public class ChannelPage {
         channelList.add ("#chanlist_263");
         channelList.add ("#chanlist_1154");
         channelList.add ("#chanlist_253");
-        channelList.add ("#chanlist_1036)");
+        channelList.add ("#chanlist_1036");
         channelList.add ("#chanlist_1040");
         channelList.add ("#chanlist_1041");
         channelList.add ("#chanlist_1066");
@@ -168,7 +168,7 @@ public class ChannelPage {
         channelList.add ("#chanlist_1142");
         channelList.add ("#chanlist_1143");
         channelList.add ("#chanlist_1851");
-        channelList.add ("#chanlist_1852)");
+        channelList.add ("#chanlist_1852");
         channelList.add ("#chanlist_1853");
         channelList.add ("#chanlist_2110");
         channelList.add ("#chanlist_2130");

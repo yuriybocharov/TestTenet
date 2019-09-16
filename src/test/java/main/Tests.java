@@ -1,20 +1,15 @@
 package main;
 
-
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Locatable;
-
 import org.openqa.selenium.interactions.internal.Coordinates;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import pages.*;
 import tools.*;
 import org.testng.annotations.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -45,10 +40,6 @@ public class Tests {
 //        driver.findElement (By.cssSelector (TenetPage.tvProgram)).click ();
 //        scrollToElement (driver.findElement(By.cssSelector (TenetPage.tvProgramDay)));
 //        System.out.println (driver.findElement(By.cssSelector (TenetPage.tvProgramDay)).getText ());
-
-
-
-
 
     }
 
@@ -84,28 +75,24 @@ public class Tests {
 
             list.add (a);
             c++;
+            b--;
         } catch (ElementNotVisibleException ignore) {
 
         }}
 
         System.out.println (b + " channel");
 
-        System.out.println (c);
+        System.out.println (c + "channel error");
         for (Object e : list) {
             System.out.println (e);
 
         }
-
-
     }
-
 
     @Test
     public void incomingmail() throws InterruptedException {
 
-
     }
-
 
     public WebDriver driver;
 
