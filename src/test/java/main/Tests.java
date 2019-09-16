@@ -77,8 +77,8 @@ public class Tests {
 
         int b = 0;
         ChannelPage channelPage = new ChannelPage ();
+        for (String a : channelPage.addList ()){
         try {
-            for (String a : channelPage.addList ()){
                 WebElement element5 = driver.findElement (By.cssSelector (a));
                 scrollToElement (element5);
                 //Thread.sleep (1000);
